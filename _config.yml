@@ -1,0 +1,28 @@
+# _config.yml
+title: El teu Títol
+description: Descripció breu de la pàgina
+baseurl: "" # Deixa-ho buit si és la pàgina principal del repositori
+url: "https://guillemlpc.github.io" # URL del teu Github Pages
+theme: minima # Canvia-ho pel tema que vulguis utilitzar
+
+# Configuració de Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Configuració de plugins (opcional)
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Altres opcions (opcionals)
+highlighter: rouge
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Dades personalitzades (opcional)
+author:
+  name: Guillem
+  email: guillemlc9@gmail.com
