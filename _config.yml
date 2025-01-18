@@ -1,11 +1,13 @@
 # _config.yml
-title: El teu Títol
-description: Descripció breu de la pàgina
+title: Viatges
+description: Comparteixo les meves aventures.
 baseurl: "" # Deixa-ho buit si és la pàgina principal del repositori
 url: "https://guillemlpc.github.io" # URL del teu Github Pages
 theme: minima # Canvia-ho pel tema que vulguis utilitzar
+permalink: /:categories/:year/:month/:day/:title/
 
 # Configuració de Markdown
+timezone: Europe/Madrid
 markdown: kramdown
 kramdown:
   input: GFM
